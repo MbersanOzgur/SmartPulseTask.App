@@ -26,6 +26,7 @@ hesaplanır. Ardından sonuçlar konsola yazdırılır ve `results.csv` dosyası
 ## Kurulum ve Çalıştırma
 
 ### 1. .NET 9 SDK’yı yükleyin
+Resmî yükleyici: [https://dotnet.microsoft.com/download](https://dotnet.microsoft.com/download)
 
 ### 2. `.env` dosyasını proje klasörüne ekleyin
 Örnek içerik:
