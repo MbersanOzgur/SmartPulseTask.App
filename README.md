@@ -2,7 +2,7 @@
 
 ## Proje Özeti
 Bu proje, **EPİAŞ Şeffaflık Platformu**’ndan gün içi piyasa işlem verilerini otomatik olarak çekip işleyerek özet sonuçları gösterir.  
-`.env` dosyasındaki kullanıcı bilgileriyle giriş yapar, aldığı **TGT** bilgisini 2 saat boyunca önbellekte (cache) tutar ve belirtilen tarih aralığı için API’ye istekte bulunur.  
+`.env` dosyasındaki kullanıcı bilgileriyle giriş yapar, aldığı **TGT** bilgisini 2 saat boyunca cachede tutar ve belirtilen tarih aralığı için API’ye istekte bulunur.  
 
 Gelen veriler `contractName` alanına göre gruplanarak her sözleşme için:
 - Toplam miktar  
@@ -26,7 +26,6 @@ hesaplanır. Ardından sonuçlar konsola yazdırılır ve `results.csv` dosyası
 ## Kurulum ve Çalıştırma
 
 ### 1. .NET 9 SDK’yı yükleyin
-Resmî yükleyici: [https://dotnet.microsoft.com/download](https://dotnet.microsoft.com/download)
 
 ### 2. `.env` dosyasını proje klasörüne ekleyin
 Örnek içerik:
