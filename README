@@ -1,9 +1,15 @@
 # Case
 
-##  Proje Özeti
+## Proje Özeti
 Bu proje, **EPİAŞ Şeffaflık Platformu**’ndan gün içi piyasa işlem verilerini otomatik olarak çekip işleyerek özet sonuçları gösterir.  
-`.env` dosyasındaki kullanıcı bilgileriyle giriş yapar, aldığı **TGT** bilgisini 2 saat boyunca cachede tutar ve belirtilen tarih aralığı için API’ye istekte bulunur.  
-Gelen verileri `contractName` alanına göre gruplayarak her sözleşme için **toplam miktar**, **toplam tutar** ve **ağırlıklı ortalama fiyatı** hesaplar, ardından sonuçları konsola yazdırır ve `results.csv` dosyasına kaydeder.
+`.env` dosyasındaki kullanıcı bilgileriyle giriş yapar, aldığı **TGT** bilgisini 2 saat boyunca önbellekte (cache) tutar ve belirtilen tarih aralığı için API’ye istekte bulunur.  
+
+Gelen veriler `contractName` alanına göre gruplanarak her sözleşme için:
+- Toplam miktar  
+- Toplam tutar  
+- Ağırlıklı ortalama fiyat  
+
+hesaplanır. Ardından sonuçlar konsola yazdırılır ve `results.csv` dosyasına kaydedilir.
 
 ---
 
@@ -13,17 +19,19 @@ Gelen verileri `contractName` alanına göre gruplayarak her sözleşme için **
 - **System.Text.Json** → JSON verilerini işlemek için  
 - **System.IO** → Dosya okuma/yazma işlemleri için  
 
-> Bu paketlerin tamamı .NET SDK ile birlikte geliyor, ek kurulum gerekmiyor.
+> Bu paketlerin tamamı .NET SDK ile birlikte geliyor, ek kurulum gerektirmiyor.
 
 ---
 
 ## Kurulum ve Çalıştırma
 
-1. **.NET 9 SDK**’yı yükleyin  
+### 1. .NET 9 SDK’yı yükleyin
+Resmî yükleyici: [https://dotnet.microsoft.com/download](https://dotnet.microsoft.com/download)
 
-2. **.env** dosyasını proje klasörüne ekleyin:
-   ```env
-   EPIAS_USERNAME=epias_kullanici_maili
-   EPIAS_PASSWORD=sifre
-   START_DATE=2024-11-27T00:00:00
-   END_DATE=2024-11-28T00:00:00
+### 2. `.env` dosyasını proje klasörüne ekleyin
+Örnek içerik:
+```env
+EPIAS_USERNAME=epias_kullanici_maili
+EPIAS_PASSWORD=sifre
+START_DATE=2024-11-27T00:00:00
+END_DATE=2024-11-28T00:00:00
