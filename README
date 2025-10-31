@@ -2,7 +2,7 @@
 
 ## Proje Özeti
 Bu proje, **EPİAŞ Şeffaflık Platformu**’ndan gün içi piyasa işlem verilerini otomatik olarak çekip işleyerek özet sonuçları gösterir.  
-`.env` dosyasındaki kullanıcı bilgileriyle giriş yapar, aldığı **TGT** bilgisini 2 saat boyunca önbellekte (cache) tutar ve belirtilen tarih aralığı için API’ye istekte bulunur.  
+`.env` dosyasındaki kullanıcı bilgileriyle giriş yapar, aldığı **TGT** bilgisini 2 saat boyunca cachede tutar ve belirtilen tarih aralığı için API’ye istekte bulunur.  
 
 Gelen veriler `contractName` alanına göre gruplanarak her sözleşme için:
 - Toplam miktar  
