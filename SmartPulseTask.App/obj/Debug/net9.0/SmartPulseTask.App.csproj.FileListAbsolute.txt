@@ -1,0 +1,17 @@
+C:\Users\Bersan\Desktop\SmartPulseTask.App\bin\Debug\net9.0\SmartPulseTask.App.exe
+C:\Users\Bersan\Desktop\SmartPulseTask.App\bin\Debug\net9.0\SmartPulseTask.App.deps.json
+C:\Users\Bersan\Desktop\SmartPulseTask.App\bin\Debug\net9.0\SmartPulseTask.App.runtimeconfig.json
+C:\Users\Bersan\Desktop\SmartPulseTask.App\bin\Debug\net9.0\SmartPulseTask.App.dll
+C:\Users\Bersan\Desktop\SmartPulseTask.App\bin\Debug\net9.0\SmartPulseTask.App.pdb
+C:\Users\Bersan\Desktop\SmartPulseTask.App\bin\Debug\net9.0\Newtonsoft.Json.dll
+C:\Users\Bersan\Desktop\SmartPulseTask.App\obj\Debug\net9.0\SmartPulseTask.App.csproj.AssemblyReference.cache
+C:\Users\Bersan\Desktop\SmartPulseTask.App\obj\Debug\net9.0\SmartPulseTask.App.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Bersan\Desktop\SmartPulseTask.App\obj\Debug\net9.0\SmartPulseTask.App.AssemblyInfoInputs.cache
+C:\Users\Bersan\Desktop\SmartPulseTask.App\obj\Debug\net9.0\SmartPulseTask.App.AssemblyInfo.cs
+C:\Users\Bersan\Desktop\SmartPulseTask.App\obj\Debug\net9.0\SmartPulseTask.App.csproj.CoreCompileInputs.cache
+C:\Users\Bersan\Desktop\SmartPulseTask.App\obj\Debug\net9.0\SmartPul.25B421F6.Up2Date
+C:\Users\Bersan\Desktop\SmartPulseTask.App\obj\Debug\net9.0\SmartPulseTask.App.dll
+C:\Users\Bersan\Desktop\SmartPulseTask.App\obj\Debug\net9.0\refint\SmartPulseTask.App.dll
+C:\Users\Bersan\Desktop\SmartPulseTask.App\obj\Debug\net9.0\SmartPulseTask.App.pdb
+C:\Users\Bersan\Desktop\SmartPulseTask.App\obj\Debug\net9.0\SmartPulseTask.App.genruntimeconfig.cache
+C:\Users\Bersan\Desktop\SmartPulseTask.App\obj\Debug\net9.0\ref\SmartPulseTask.App.dll
